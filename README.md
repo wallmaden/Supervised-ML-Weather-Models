@@ -92,7 +92,7 @@ Edit
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 CareerFountry provided the datasource and guidance for this case study.
 
