@@ -1,6 +1,8 @@
 # Supervised-ML-Weather-Models
 Analyse European weather trends using supervised machine learning to predict environmental outcomes, compare algorithm performance, and recommend the most effective model for climate forecasting.
 
+![Python Logo](https://github.com/wallmaden/Supervised-ML-Weather-Models/raw/main/04%20Analysis%20and%20Visualisations/python-logo.png)
+
 **Author:** Paul Maden  
 **Date:** April 2025
 
