@@ -1,27 +1,34 @@
 # Supervised-ML-Weather-Models
-Analyse European weather trends using supervised machine learning to predict environmental outcomes, compare algorithm performance, and recommend the most effective model for climate forecasting.
+Analyse European weather trends using machine learning (supervised and unsupervised) to predict environmental outcomes, compare algorithm performance, detect long-term climate patterns, and recommend models for climate forecasting.
 
 ![Python Logo](https://github.com/wallmaden/Supervised-ML-Weather-Models/raw/main/04%20Analysis%20and%20Visualisations/python-logo.png)
 
 **Author:** Paul Maden  
-**Date:** April 2025
+**Date:** June 2025
 
 ---
 
 ## Project Overview
 
-This project was developed in collaboration with **ClimateWins**, a European nonprofit focused on understanding and predicting the effects of climate change, especially extreme weather events across Europe.
+This project was developed in collaboration with **ClimateWins**, a European nonprofit focused on understanding and predicting the effects of climate change—especially extreme weather events across Europe.
 
-The goal of this project is to evaluate the use of supervised machine learning models to analyze historical weather data and identify the most effective algorithms for forecasting climate-related conditions.
+The project was completed in two phases:
+
+- **Achievement 1 (Part 1):** Focused on using **supervised machine learning** to predict favorable weather conditions and evaluate model performance.
+- **Achievement 2 (Part 2):** Applied **unsupervised learning**, advanced ML models, and deep learning (e.g. CNNs) to explore long-term climate trends and generate insights for policy recommendations.
+
+The work culminated in a final proposal presentation (see `/presentation/`) highlighting model comparisons, results, and strategic forecasts.
 
 ---
 
 ## Objectives
 
-- Use machine learning to detect and forecast climate-related weather patterns.
-- Compare the performance of different supervised ML models.
-- Recommend an optimal model for short- and long-term climate forecasting.
-- Provide actionable next steps for integration into ClimateWins' tools and strategies.
+- Predict favorable vs. hazardous weather conditions using ML  
+- Compare supervised models (e.g. KNN, Decision Trees, ANN)  
+- Apply unsupervised learning to reveal climate trends and anomalies  
+- Experiment with CNNs and advanced tuning to forecast future risks  
+- Recommend safe zones for habitation over 25–50 years  
+- Translate results into actionable proposals for ClimateWins  
 
 ---
 
@@ -36,21 +43,33 @@ The goal of this project is to evaluate the use of supervised machine learning m
 
 ## Methodology
 
-### 1. Feature Optimization
-- Preprocessed features to normalize scales and handle missing values
-- Identified high-impact variables influencing daily weather conditions
+### Part 1 – Supervised Learning
 
-### 2. Supervised Machine Learning Models
-The following models were trained and evaluated:
+- Preprocessing: normalization, imputation, and feature selection  
+- Models:
+  - **K-Nearest Neighbors (KNN)** — Top short-term performer  
+  - **Decision Tree** — Interpretable but less accurate  
+  - **Artificial Neural Network (ANN)** — Strong but resource-intensive  
 
-- **K-Nearest Neighbors (KNN)**  
-  Best performer on short-term predictions with high accuracy
+### Part 2 – Advanced & Unsupervised ML
 
-- **Decision Tree**  
-  Easy to interpret but prone to overfitting, lowest accuracy in trials
+- Clustering & pattern discovery (K-Means, PCA)  
+- Advanced deep learning using **CNNs** to detect radar-like patterns  
+- Hyperparameter tuning and optimization  
+- Forecasting safest zones for habitation (next 25–50 years)  
 
-- **Artificial Neural Network (ANN)**  
-  Handles complex, nonlinear patterns; requires more tuning and computational power
+---
+
+## Thought Experiments (from Final Presentation)
+
+1. **Discovering Patterns in Changing Weather**  
+   Unsupervised models to reveal climate deviations  
+
+2. **Better Forecasts Through Tuning**  
+   CNN & model optimization comparisons (pre- vs. post-tuning)  
+
+3. **Seeing Weather with ML**  
+   Visual modeling of radar-like patterns via convolutional neural networks 
 
 ---
 
@@ -64,17 +83,18 @@ The following models were trained and evaluated:
 
 ## Results & Recommendation
 
-After evaluating the models
-
-> **K-Nearest Neighbors (KNN)** is recommended for initial deployment due to its superior accuracy and simplicity. It is ideal for short-term forecasts (e.g., 48–72 hours) and easy to maintain for a nonprofit with limited technical resources.
+> **K-Nearest Neighbors (KNN)** remains the best choice for short-term forecasting  
+> **CNNs** and deep models show promise for visual classification of climate extremes  
+> **Unsupervised techniques** valuable for long-term strategic insight and risk mapping  
 
 ---
 
 ## Next Steps
 
-- Deploy KNN with cross-validation across multiple European regions
-- Train and tune ANN models on long-term datasets to detect broader climate trends
-- Integrate prediction output into an interactive dashboard for ClimateWins stakeholders
+- Deploy KNN for regional short-term forecasting  
+- Extend CNN training with weather radar simulation datasets  
+- Integrate climate risk zones into ClimateWins' planning dashboard  
+- Further test ensemble and GAN models for future scenario generation 
 
 ---
 
@@ -86,11 +106,11 @@ For more information or collaboration inquiries, feel free to reach out via GitH
 
 ## Repository Structure
 
-/data → Weather datasets (ECAD historical data) /notebooks → Jupyter notebooks for data prep, training, evaluation /scripts → Python scripts for model functions /presentation → PowerPoint presentation (final report) /README.md → This file
-
-yaml
-Copy
-Edit
+/data → Weather datasets (ECAD)
+/notebooks → Jupyter notebooks for modeling & analysis
+/scripts → Python scripts for ML, preprocessing, tuning
+/presentation → Final PowerPoint report & visuals
+README.md → This file
 
 ---
 
